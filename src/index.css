@@ -88,7 +88,7 @@ main {
       @apply absolute z-50 xs:top-[9.5rem] sm:top-[12.8rem] md:top-[8.5rem] 2xl:top-44 3xl:top-48 left-1/2 -translate-x-1/2;
     }
     .overlay-logo {
-      @apply size-full object-cover opacity-0 w-60 md:w-60 2xl:w-72 3xl:w-80;
+      @apply size-full object-cover opacity-0 w-48 md:w-60 2xl:w-72 3xl:w-80;
     }
   }
   .first-vd-wrapper {
@@ -104,7 +104,7 @@ main {
     }
 
     .text-wrapper {
-      @apply mt-40 md:mt-60 2xl:mt-44 3xl:top-48;
+      @apply mt-40 md:mt-60 2xl:mt-80 3xl:top-80;
     }
   }
   .jason {
@@ -117,7 +117,7 @@ main {
       @apply text-pink md:text-5xl text-3xl mb-7 md:pe-20 pe-10;
     }
     p {
-      @apply text-white md:text-2xl text-lg md:pe-28 pe-14;
+      @apply text-white text-justify bg-black/65 shadow-lg rounded-md max-w-md px-3 md:text-2xl text-lg pe-5;
     }
     .jason-1 {
       @apply bg-yellow lg:h-[80vh] w-auto -translate-x-5;
@@ -154,7 +154,7 @@ main {
       @apply text-pink md:text-5xl text-3xl mb-7 md:pe-20 pe-10;
     }
     p {
-      @apply text-white md:text-2xl text-lg md:pe-28 pe-14;
+      @apply text-white md:text-2xl text-justify bg-black/65 shadow-lg rounded-md text-lg max-w-md px-3 pe-5;
     }
     p:last-of-type {
       @apply md:hidden block xl:block;
@@ -204,6 +204,7 @@ main {
       }
     }
   }
+
   .final {
     @apply relative h-dvh overflow-hidden;
 
